@@ -20,7 +20,7 @@ def view_tasks(tasks):
         print("No tasks yet!")
     else:
         for i, task in enumerate(tasks, start=1):
-    print(f"{i}. {task}")
+         print(f"{i}. {task}")
         
 
 def delete_tasks(tasks):
